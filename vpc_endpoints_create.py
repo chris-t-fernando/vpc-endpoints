@@ -8,6 +8,7 @@ services_to_create = [
     "com.amazonaws.us-west-2.rds",
     "com.amazonaws.us-west-2.lambda",
     "com.amazonaws.us-west-2.ec2",
+    "com.amazonaws.us-west-2.ssm",
 ]
 
 for service in services_to_create:
